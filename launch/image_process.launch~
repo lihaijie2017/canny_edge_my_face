@@ -1,0 +1,9 @@
+<launch>
+    <node
+		pkg="canny" type="talker.py" name="get_image"
+    />
+	
+	<node
+		pkg="canny" type="listener.py" name="filter_image"
+    />
+</launch>

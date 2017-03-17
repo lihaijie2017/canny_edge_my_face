@@ -1,0 +1,9 @@
+<launch>
+    <node
+		pkg="canny_edge_my_face" type="talker.py" name="get_image"
+    />
+	
+	<node
+		pkg="canny_edge_my_face" type="listener.py" name="filter_image"
+    />
+</launch>
